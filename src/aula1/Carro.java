@@ -14,4 +14,8 @@ public class Carro {
     void acelerar(int aceleracao){
         vel+=aceleracao;
     }
+
+    void freiar(int reduzir){
+        vel-=reduzir;
+    }
 }
