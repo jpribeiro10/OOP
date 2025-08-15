@@ -6,6 +6,7 @@ public class Carro {
 
      String nome;
      String marca;
+     int anoFab;
      int ano;
      int vel;
 
@@ -17,5 +18,9 @@ public class Carro {
 
     void freiar(int reduzir){
         vel-=reduzir;
+    }
+
+    void buzinar(){
+        System.out.println("Barulho de Buzina");
     }
 }
